@@ -20,7 +20,7 @@ def import_xls_to_df(filename, name_of_sheet):
     logger.info('Importing data...')
 
     return pd.read_excel(filename,sheetname=name_of_sheet)
-
+## random comments
 
 def add_column5(dataframe,newcol):
     """
